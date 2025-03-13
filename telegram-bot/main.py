@@ -9,7 +9,7 @@ from tensorflow import keras
 import os
 
 # Replace with your Telegram Bot API token
-API_TOKEN = '7869100012:AAFIt2ZtVid4ZRapWmStwn7JNFqtnpLwnIw'
+API_TOKEN = 'YOUR_TELEGRAM_BOT_API'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Load necessary data
