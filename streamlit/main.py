@@ -11,7 +11,7 @@ import os
 # Load necessary data
 stemmer = LancasterStemmer()
 
-dir_model = "model"
+dir_model = "./model"
 
 with open(os.path.join(dir_model, "training_data"), "rb") as file:
     data = pickle.load(file)
